@@ -5,12 +5,12 @@ import {
   Text,
   FlatList,
 } from 'react-native';
-import Title from './components/Title/Title';
+import Title from './Components/Title/Title';
 import {FontAwesomeIcon} from '@fortawesome/react-native-fontawesome';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import globalStyle from './assets/styles/globalStyle';
-import UserStory from './components/UserStory/UserStory';
-import UserPost from './components/UserPost/UserPost';
+import UserStory from './Components/UserStory/UserStory';
+import UserPost from './Components/UserPost/UserPost';
 import { SafeAreaView } from 'react-native-safe-area-context';
 const App = () => {
   const userStories = [
