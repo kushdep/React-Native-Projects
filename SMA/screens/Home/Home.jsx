@@ -120,7 +120,6 @@ const Home = ({navigation}) => {
       id: 5,
     },
   ];
-  console.dir(StatusBar);
   const userStoriesPageSize = 4;
   const [userStoriesCurrentPage, setUserStoriesCurrentPage] = useState(1);
   const [userStoriesRenderedData, setUserStoriesRenderedData] = useState([]);
